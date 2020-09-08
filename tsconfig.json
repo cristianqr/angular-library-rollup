@@ -1,0 +1,14 @@
+{
+    "files": ["./public_api.ts"],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declaration": true,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es5",
+        "experimentalDecorators": true,
+    },
+    "angularCompilerOptions": {
+        "flatModuleOutFile": "angular-library-rollup"
+    }
+}

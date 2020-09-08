@@ -1,0 +1,48 @@
+{
+  "name": "@cquispera/angular-library-rollup",
+  "version": "1.0.0",
+  "description": "Angular library with rollup",
+  "main": "angular-library-rollup.js",
+  "module": "angular-library-rollup.js",
+  "fesm5": "angular-library-rollup.js",
+  "types": "angular-library-rollup.d.ts",
+  "scripts": {
+    "postinstall": "ngcc"
+  },
+  "keywords": [
+    "angular",
+    "library",
+    "javascript",
+    "typescript",
+    "rollup"
+  ],
+  "author": "Cristian Quispe Ramirez",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/common": "^10.1.0",
+    "@angular/core": "^10.1.0",
+    "@angular/router": "^10.1.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@angular/common": "^10.1.0",
+    "@angular/compiler": "^10.1.0",
+    "@angular/compiler-cli": "^10.1.0",
+    "@angular/core": "^10.1.0",
+    "@angular/router": "^10.1.0",
+    "@types/node": "^14.6.4",
+    "chalk": "^4.1.0",
+    "rollup": "^2.26.10",
+    "rxjs": "^6.6.3",
+    "shelljs": "^0.8.4",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianqr/angular-library-rollup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristianqr/angular-library-rollup/issues"
+  },
+  "homepage": "https://github.com/cristianqr/angular-library-rollup#readme"
+}
